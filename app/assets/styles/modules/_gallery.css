@@ -1,0 +1,14 @@
+/* Gallery */
+#takes_gallery_div .thumbnail {
+    border: 0px;
+}
+#takes_gallery_div .thumbnail {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #ddd;
+}
+#takes_gallery_div .thumbnail.clicked {
+    border: 2px solid #333 !important;   
+}

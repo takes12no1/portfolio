@@ -1,0 +1,107 @@
+/* Icon box */
+.icon_box { 
+    position: relative; 
+    padding: 10px 10px;
+    margin-bottom: 15px; 
+
+    :hover {
+        cursor: default;
+        }
+    }
+
+.icon_box_bg {
+    border-radius: 2px;
+    background-color: #f6f6f6;
+    background-color: rgba(0,0,0, 0.05);
+    box-shadow: 2.121px 2.121px 0px 0px rgba( 0, 0, 0, 0.1 );
+    border-radius: 4px !important;overflow: hidden;
+    transition: all 0.4s linear;
+    }
+
+.dark .icon_box_bg { 
+    background-color: rgba(255,255,255, 0.1); 
+    }
+
+.icon_box_bg:hover {
+    background: #333333;
+    }
+
+.icon_box_bg:hover *,
+.icon_box_bg:hover .desc_wrapper .desc,
+.icon_box_bg:hover .desc_wrapper h5,
+.icon_box_bg:hover .icon_wrapper i {
+    color: #fff;
+    }
+
+.icon_box.has_border:after { 
+    content: "";
+    display: block; 
+    width: 0px; height: 
+    100%; border-width: 0 1px 0 0;
+    border-style: solid; 
+    position: absolute; 
+    right: -2.4%; 
+    top: 0;  
+    }
+
+.icon_box a { 
+    display: block; 
+    }
+
+.icon_box a:hover { 
+    text-decoration: none; 
+    }
+.icon_box .icon_wrapper { 
+    width: 100%; 
+    height: 110px; 
+    text-align: center; 
+    line-height: 110px; 
+    font-size: 90px; 
+    position: relative; 
+    overflow: hidden; 
+    margin: 0 auto 15px; 
+    display: block; 
+    }
+
+.icon_box .icon_wrapper i { 
+    z-index: 2; 
+    position: relative; 
+    color: #dddddd;
+    }
+
+.dark .icon_box .icon_wrapper i { 
+    color: rgba(255,255,255,.6);
+    }	
+
+.dark .icon_box_bg:hover i { 
+    color: #fff; 
+    }
+
+
+.icon_box .image_wrapper { 
+    text-align: center; 
+    margin: 0px 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    }
+
+.icon_box .image_wrapper img { 
+    border-radius: 3px;
+    margin: auto; 
+    }
+
+.icon_box .desc_wrapper { 
+    text-align: center; 
+    }
+
+.icon_box .desc_wrapper h5 { 
+    font-weight: bold;
+    color: #9aa1a9;
+    margin-bottom: 20px;
+    }
+
+.icon_box .desc_wrapper .desc{ 
+    position: relative;
+    top: -10px;
+    color: #9aa1a9;
+    }

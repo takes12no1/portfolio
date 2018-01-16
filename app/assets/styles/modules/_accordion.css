@@ -1,0 +1,23 @@
+/* Accordions */
+
+.takes_accordion.panel {
+    border: 0 px;
+    line - height: 24 px;
+    border - radius: 0 px;
+    box - shadow: none;
+    background - color: transparent;
+}
+
+.takes_accordion.panel - body {
+    color: #888;
+    border-top: 0px !important;
+}
+
+.takes_accordion .panel-heading {
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.takes_accordion .panel-title {
+    color: # 888;
+}

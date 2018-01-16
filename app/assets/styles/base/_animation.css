@@ -1,0 +1,25 @@
+/* Arrow Animation */
+
+@-webkit-keyframes new_icon {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 15px;
+    }
+}
+
+@-moz-keyframes new_icon {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 15px;
+    }
+}
+
+.takes-moving-btn {
+    position: relative;
+    animation: new_icon 1s linear 0s infinite alternate;
+    -webkit-animation: new_icon 2s linear 0s infinite alternate;
+}

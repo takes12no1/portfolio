@@ -1,0 +1,49 @@
+
+@import "normalize.css";
+/* @import "bootstrap.css"; */
+@import "base/_global";
+@import "base/_typography";
+@import "base/_utilities";
+@import "base/_colors";
+@import "base/_buttons";
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_animation";
+@import "modules/_icon-box";
+@import "modules/_featured-box";
+@import "modules/_form";
+@import "modules/_section";
+@import "modules/_header";
+@import "modules/_right-sidebar";
+@import "modules/_gallery";
+@import "modules/_modal";
+@import "modules/_navbar";
+@import "modules/_accordion";
+@import "modules/_slider";
+
+@import "modules/_misc";
+
+
+
+
+	/* .test1 { background: url(../images/bg.jpg) fixed;background-color: rgb(67,50,86);padding: 50px; } */
+
+	
+    
+
+
+
+
+    
+
+    /* .takes_form_preview {
+        display: inline-block;
+    } */
+    
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+/* Form */
+
+.takes-form-style input,
+.takes-form-style textarea {
+    background: #eee;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    width: 1005;
+    -moz-box-sizing: border-box;
+    padding: 14px 15px;
+    height: 100%;
+}
+
+.takes-form-style .checkbox {
+    margin-bottom: 20px;
+}
+
+.takes-form-style input:focus,
+.takes-form-style textarea:focus,
+.takes-form-style select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.takes-form-style button[type="submit"] {
+    margin-bottom: 20px;
+}
+
+.takes-form-style select {
+    background: #eee;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+form.takes-form-white-bg .form-control {
+    background: #fff;
+}
+
+form.takes-form-light-white-bg-2 .form-control {
+    background: #eee;
+}
+
+form.takes-form-light-white-bg .form-control {
+    background: #ddd;
+}
+
+form.takes-form-gray-bg .form-control {
+    background: #f4f4f4;
+}
+
+form.takes-form-light-blue-bg .form-control {
+    background: #f2f6fa;
+}
+
+form textarea {
+    max-width: 100%;
+}
+
+.takesfort-form .alert {
+    font-weight: bold;
+}

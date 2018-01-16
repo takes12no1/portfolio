@@ -1,0 +1,49 @@
+/* original */
+
+.takes-original-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/original/bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Startup */
+
+.takes-startup-intro {
+    background-image: linear-gradient(rgba(54, 63, 72, 0.85), rgba(54, 63, 72, 0.85)), url('../images/startup/intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.takes-startup-1 {
+    background-image: url('../images/startup/image-1.png');
+}
+
+.takes-startup-2 {
+    background-image: url('../images/startup/image-2.png');
+}
+
+
+/* Product */
+
+.takes-product-1 {
+    background-image: linear-gradient(rgba(208, 225, 0, 0.75), rgba(208, 225, 0, 0.75)), url('../images/product/bg-video-product.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Saas */
+
+.takes-saas-intro {
+    position: relative;
+    top: -5px;
+}
+
+.takes-saas-1 {
+    background-image: url('../images/saas/bg-intro.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+

@@ -1,0 +1,203 @@
+/* Header */
+
+.takes-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.takes-over-header {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.takes-header-nav li a {
+    transition: all 0.2s ease-in-out;
+}
+
+.takes-header-nav>li>a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.takes_nav_menu .navbar-nav>li>a:hover,
+.takes_nav_menu .navbar-nav>li.active,
+.takes_nav_menu .navbar-nav>li>a:focus {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+}
+
+.takes_scroll_menu .navbar-nav>li>a:hover,
+.takes_scroll_menu .navbar-nav>li.active,
+.takes_scroll_menu .navbar-nav>li>a:focus {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+}
+
+.dropdown-menu {
+    border-radius: 2px;
+    border: 0px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 0px;
+}
+
+.dropdown-menu li a {
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+}
+
+.fancybox-container {
+    z-index: 99999 !important;
+}
+
+.takes_scroll_menu {
+    z-index: 99998 !important;
+}
+
+.takes-header-nav .open a,
+.takes-header-nav .hover_open a {}
+
+.dropdown-menu>li>a {
+    font-weight: 400;
+    color: #aaa;
+    padding: 5px 15px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: #777;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.takes-full-height {
+    min-height: 100vh !important;
+}
+
+.takes_scroll_menu {
+    position: fixed;
+    width: 100%;
+    top: -80px;
+    visibility: hidden;
+    z-index: 999999;
+    background: #fff;
+    /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15), 0 3px 12px 0 rgba(0,0,0,0.08);*/
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.04);
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+img.scroll_logo_img {
+    max-height: 30px !important;
+    width: auto;
+}
+
+.navbar-toggle {
+    border: 0px solid transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form,
+.navbar-collapse.in {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 767px) {
+    /* Mobile Misc */
+    .mobile-text-center {
+        text-align: center !important;
+    }
+    .mobile-text-left {
+        text-align: left !important;
+    }
+    .nav-mobile-center a {
+        text-align: center;
+        padding-left: 0px !important;
+    }
+    .mobile-float-none {
+        float: none;
+    }
+    .takes_nav_menu.takes-over-header {
+        background: #444;
+    }
+    .navbar-header {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    }
+    img.takes-logo-img {
+        width: auto;
+    }
+    .navbar-header {
+        padding-bottom: 8px;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+    /* Misc */
+    .takes-lg-inline-block {
+        display: inline-block;
+    }
+    .takes-nav-first-left {
+        padding-left: 0px !important;
+    }
+    .takes-nav-first-left>ul>li:first-child>a {
+        padding-left: 0px
+    }
+    .takes-header-nav .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        margin-top: 10px !important;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .takes-header-nav .open>.dropdown-menu,
+    .takes-header-nav .hover_open>.dropdown-menu {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        margin-top: 0px !important;
+        border-radius: 3px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 3px 12px 0 rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        margin-top: 0;
+    }
+    .dropdown-toggle {
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle,
+    .nav-tabs .dropdown-toggle {
+        margin-bottom: 0;
+    }
+}

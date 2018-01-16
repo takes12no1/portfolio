@@ -1,0 +1,27 @@
+/* Navbar */
+
+.takes-navbar-default {
+    background: transparent;
+    border: 0px;
+}
+
+.takes-navbar-default .logo-img {
+    margin-top: 0px;
+    display: block;
+    padding: 10px 0;
+    height: 100%;
+    width: auto;
+}
+
+.takes-navbar-default .logo-img img {
+    display: inline-block;
+    max-height: 100%;
+    width: auto;
+}
+
+.takes-header-item {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    line-height: 20px;
+    display: inline-block;
+}
