@@ -67,26 +67,66 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// var $ = require('jquery');
-// getting jquery form CDN
-var FavoriteQoute = __webpack_require__(1);
+"use strict";
 
-var favoriteQoute1 = new FavoriteQoute("Success lives on the other side of fear.", "Mark Coleman");
+
+var _FavoriteQoute = __webpack_require__(1);
+
+var _FavoriteQoute2 = _interopRequireDefault(_FavoriteQoute);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var favoriteQoute1 = new _FavoriteQoute2.default("Success lives on the other side of fear.", "Mark Coleman"); // var $ = require('jquery');
+// getting jquery form CDN
+// var FavoriteQoute = require('./modules/FavoriteQoute'); preBabel
+
 favoriteQoute1.sayIt();
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function FavoriteQoute(qouteText, qouteAuthor) {
-    this.qoute = qouteText;
-    this.author = qouteAuthor;
-    this.sayIt = function() {
-        console.log(this.qoute + " -" + this.author)
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var FavoriteQoute = function () {
+    function FavoriteQoute(qouteText, qouteAuthor) {
+        _classCallCheck(this, FavoriteQoute);
+
+        this.qoute = qouteText;
+        this.author = qouteAuthor;
     }
-}
 
-module.exports = FavoriteQoute;
+    _createClass(FavoriteQoute, [{
+        key: "sayIt",
+        value: function sayIt() {
+            console.log(this.qoute + " -" + this.author);
+        }
+    }]);
+
+    return FavoriteQoute;
+}();
+
+// function FavoriteQoute(qouteText, qouteAuthor) {
+//     this.qoute = qouteText;
+//     this.author = qouteAuthor;
+//     this.sayIt = function() {
+//         console.log(this.qoute + " -" + this.author)
+//     }
+// }
+
+// module.exports = FavoriteQoute; //PreBabel
+
+
+exports.default = FavoriteQoute;
 
 /***/ })
 /******/ ]);
